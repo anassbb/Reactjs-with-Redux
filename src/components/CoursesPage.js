@@ -13,7 +13,7 @@ function CoursesPage() {
     return (
         <>
         <h2>Courses</h2>
-        <CoursesList courses={courses} headre="hello" />
+        <CoursesList courses={courses} />
         </>
         );
     }

@@ -4,8 +4,6 @@ import PropTypes from "prop-types";
 function CourseList(props){
 
     return (
-        <>
-        <h1>{props.headre}</h1>
         <table className="table">
             <thead>
                 <tr>
@@ -26,7 +24,6 @@ function CourseList(props){
                 })}
             </tbody>
         </table>
-        </>
     );
 }
 
